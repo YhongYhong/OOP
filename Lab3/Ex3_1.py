@@ -4,4 +4,4 @@ def add_score(subject_score, subject , score) :
 
 def calc_average_score(subject_score) :
     avg = sum(subject_score.values()) / len(subject_score)
-    return ("%.2f" % round(avg,2))
+    return ("%.2f" % avg)
